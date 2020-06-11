@@ -2,11 +2,12 @@ let names = ["Ada", "Brendan", "Ali"]
 
 
 function writeCards(array, occasion){
+  let output =[];
   for(let i = 0; i < array.length; i++){
-    console.log(`Thank you ${array[i]}, for the wonderful ${occasion} gift!`)
+    output.push(`Thank you ${array[i]}, for the wonderful ${occasion} gift!`)
   }
   
-  return array;
+  return output;
 }
 
 writeCards(names, "birthday")
