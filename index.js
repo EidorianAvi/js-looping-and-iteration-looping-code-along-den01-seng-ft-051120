@@ -11,3 +11,5 @@ function wrapGifts(gifts) {
 }
 
 wrapGifts(gifts)
+
+function writeCards()
