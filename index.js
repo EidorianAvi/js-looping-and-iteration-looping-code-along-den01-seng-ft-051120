@@ -13,3 +13,9 @@ function writeCards(array, occasion){
 writeCards(names, "birthday")
 
 
+function countDown(number){
+  for(let i = number; i >= 0; i--){
+    console.log(i)
+  }
+}
+countDown(number)
