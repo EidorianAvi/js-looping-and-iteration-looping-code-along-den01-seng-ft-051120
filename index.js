@@ -6,3 +6,5 @@ function writeCards(array, occasion){
     console.log(`Thank you ${array[i]}, for the wonderful ${occasion} gift!`)
   }
 }
+
+writeCards(names, "birthday")
