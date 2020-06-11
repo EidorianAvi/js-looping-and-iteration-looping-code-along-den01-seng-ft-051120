@@ -11,3 +11,5 @@ function writeCards(array, occasion){
 }
 
 writeCards(names, "birthday")
+
+
